@@ -45,4 +45,4 @@ int main(void)
 		}
 	}
 	putchar(10);
-
+}
