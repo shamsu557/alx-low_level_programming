@@ -8,10 +8,10 @@ int main(void)
 	char c;
 
 	for (c = 'a', c = 'z', c = c++)
-		putchar(c);
+		putchar(c, '\n');
 
 	for (c = 'A', c = 'Z', c = c++)
-		putchar(c);
-			puchar('\n')
+		putchar(c, '\n');
+			Return 0;
 }
 
