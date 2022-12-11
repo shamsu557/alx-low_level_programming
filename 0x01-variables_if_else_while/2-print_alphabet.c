@@ -1,15 +1,17 @@
 #include <stdio.h>
 /**
- * main- print lower case alphabet from a-z
- * Return:always 0
+ * main-progarm to get upper lower case letters from A to Z
+ * Return:alwaays 0 (Success)
  */
 int main(void)
 {
 	char c;
 
-	for (c = 'a', c < 'z', c++)
+	for (c = 'a', c = 'z', c = c++)
 		putchar(c);
-	putchar('\n'),
-		Return(0);
+
+	for (c = 'A', c = 'Z', c = c++)
+		putchar(c);
+			puchar('\n')
 }
 
