@@ -1,21 +1,22 @@
+
 #include "main.h"
 
 /**
- * main -  prints _putchar, followed by a new line
- * Return: Always 0 (Success)
+ * main - program that prints _putschar.
+ *
+ * Return: int
  */
 
 int main(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
+	int n = 0;
+	char str_hbt[8] = "_putchar";
 
+	while (n < 8)
+	{
+		_putchar(str_hbt[n]);
+		n += 1;
+	}
+	_putchar('\n');
 	return (0);
 }
