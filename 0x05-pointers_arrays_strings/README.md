@@ -1,0 +1,1 @@
+p0inters_arrays_strings
