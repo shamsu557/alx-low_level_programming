@@ -1,4 +1,7 @@
-#ifndef absolute_value
-#define absolute_value
-#define ABS(x) (((x) < 0) ? (x) * (-1) : (x))
-#endif
+#include <stdio.h>
+
+int main() {
+    printf("%s\n", __FILE__);
+    return 0;
+}
+
