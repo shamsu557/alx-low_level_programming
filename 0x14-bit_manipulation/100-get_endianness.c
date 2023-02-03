@@ -8,13 +8,17 @@
  */
 int get_endianness(void)
 {
-	int num = 1;
-	char *endian = (char *)&num;
+	int n;
 
-	if (*endian == 1)
-		return (1);
-
-	return (0);
+    n = get_endianness();
+    if (n != 0)
+    {
+        printf("Little Endian\n");
+    }
+    else
+    {
+        printf("Big Endian\n");
+    }
+    return (0);
 }
-Footer
 
